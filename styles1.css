@@ -1,0 +1,33 @@
+/* Change the color of the h1 to blue */
+h1 {
+    color: #5D12D2;
+}
+
+/* Change the color of the p tags to purple */
+p {
+    color: purple;
+}
+
+/* Change the color of the other tags (h2, h3, h4, h5) */
+h2, h3, h4, h5 {
+    color: #FF6AC2; /* You can use your favorite color here */
+}
+
+/* Edit the ransom note */
+.ransom-note {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1AACAC; 
+}
+/* Edit the ransom note and change its color */
+h2::before {
+    content: "Be Kind: "; /* Add your new message here */
+    color: #186F65; /* Your favorite color */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Hide the original h2 content */
+h2 {
+    display: none;
+}
