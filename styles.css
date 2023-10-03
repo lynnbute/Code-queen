@@ -1,0 +1,21 @@
+/* Change the color of the h1 to blue */
+h1 {
+    color: #5D12D2;
+}
+
+/* Change the color of the p tags to purple */
+p {
+    color: purple;
+}
+
+/* Change the color of the other tags (h2, h3, h4, h5) */
+h2, h3, h4, h5 {
+    color: #FF6AC2; /* You can use your favorite color here */
+}
+
+/* Edit the ransom note */
+.ransom-note {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1AACAC; /* You can use your favorite color here */
+}
